@@ -1,6 +1,3 @@
-// Задача со звездочкой - то же самое. Но вместо просто числа с суммой полей метод возвращает массив с названиями полей, причем эти названия полей отсортированы по убыванию.
-// Например, для объекта {name: 'Vasya', friends: 5, likes: 19, projects: 7} вернется массив [likes, projects, friends].
-
 //Задание 1 
 function sumNumericFields(obj) {
     let result = 0;
@@ -8,7 +5,6 @@ function sumNumericFields(obj) {
     for (const key in obj) {
         let value = obj[key];
 
-        //Проверка, является ли значение объекта числом
         if (typeof value === 'number') result += (value);
     }
     return result;
