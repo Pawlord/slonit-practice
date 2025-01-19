@@ -33,6 +33,7 @@ const sliceString = (str, maxLength = 30) => {
 
 console.log(sliceString("Привет мир, как дела?", 10))
 
+//Задание 3
 const compareStrings = (str1, str2) => {
     if (typeof (str1) !== 'string' || typeof (str2) !== 'string') {
         throw new Error('Функция должна принимать две строки!')
