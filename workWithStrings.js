@@ -31,7 +31,7 @@ const sliceString = (str, maxLength = 30) => {
     return newString;
 }
 
-console.log(sliceString("Привет мир, как дела?", 10))
+console.log(sliceString("Привет мир как дела?", 10))
 
 //Задание 3
 const compareStrings = (str1, str2) => {
